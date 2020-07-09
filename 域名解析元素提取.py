@@ -83,7 +83,7 @@ def nslookup(the_primary_web_data):
 
 if __name__ == '__main__':
     start_time = datetime.datetime.now()
-    file_name = '基于应用的目标站点排名 (18-21点).xlsx'
+    file_name = '基于应用的目标站点排名 (20200630).xlsx'
 
     sor_data = pandas.read_excel(file_name)
     web_data, final_ip_data = data_clean(sor_data)
