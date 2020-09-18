@@ -4,7 +4,7 @@
 2、域名做nslookup -q=ns解析，提取primary name，并对primary name进行nslookup解析ip
 目标地址、目标AS域、下行流量、上行流量、总流量的列保留源数据
 输出excel包含’网址‘和’IP‘两个sheet表
-（100行数据约37.6秒）
+（50行数据约27秒）
 '''
 
 import datetime
