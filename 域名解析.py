@@ -113,7 +113,7 @@ def format_data(the_one_value):
 
 if __name__ == '__main__':
     start_time = datetime.datetime.now()
-    file_name = '基于应用的目标站点排名50.xlsx'
+    file_name = '基于应用的目标站点排名.xlsx'
     sor_data = pandas.read_excel(file_name)
 
     clean_url_data, final_ip_data = data_clean(sor_data)
